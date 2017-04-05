@@ -16,7 +16,8 @@ namespace LanguageFeatures.Models
 
             return new Product[] {
                 new Product() { Name = "Kayak", Price = 275M },
-                new Product() { Name = "LifeJacket", Price = 48.55M }
+                new Product() { Name = "LifeJacket", Price = 48.55M },
+                null
             };
         }
 
